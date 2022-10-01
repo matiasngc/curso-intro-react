@@ -25,7 +25,7 @@ const TodoForm = () => {
         <form onSubmit={onSubmit}>
             <label>Escribe tu nuevo TODO</label>
             <textarea
-                placeholder="Cortar la cebolla para el almuerzo"
+                placeholder="Ejemplo: Crear una App con JavaScript Vanilla"
                 onChange={onChange}
             />
             <div className="TodoForm-buttonContainer">
